@@ -1,0 +1,90 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+
+// var
+:root {
+    --button: #B81519;
+    --footer: #101F4C;
+}
+
+body{
+    // width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+.navbar-scroll {
+    // backdrop-filter: blur(10px);
+    background-color: #eeeeee;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav a{
+    margin-left: 14px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+// .nav-link {
+//     color: rgba(255, 255, 255, 0.604);
+// }
+.active , .nav-link:hover {
+    // color: rgb(255, 255, 255);
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+
+// HOMEPAGE
+.width_hero {
+    max-width: 620px;
+}
+
+.button_hero {
+    background-color: var(--button);
+    border-radius: 3px;
+}
+
+.header_primary {
+    color: var(--button);
+
+}
+// HOMEPAGE END 
+
+// NEWS
+
+// NEWS END
+
+
+// ABOUT
+
+// ABOUT END
+
+
+// DIVISION
+
+// DIVISION END
+
+
+
+
+// FOOTER
+.bg-footer {
+    background-color: var(--footer);
+    // height: 120px;
+    // width: max-content;
+}
+
+
+// FOOTER END

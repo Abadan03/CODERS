@@ -38,3 +38,28 @@ Route::get('/about', function () {
 Route::get('/division', function () {
     return view('division');
 })->name('division');
+
+// DIVISION COMPONENTS
+Route::get('/web', function () {
+    return view('web');
+})->name('web');
+
+Route::get('/uiux', function () {
+    return view('uiux');
+})->name('uiux');
+
+Route::get('/mobile', function () {
+    return view('mobile');
+})->name('mobile');
+
+Route::get('/data', function () {
+    return view('data');
+})->name('data');
+
+Route::get('/ai', function () {
+    return view('ai');
+})->name('ai');
+
+Route::get('/comp', function () {
+    return view('comp');
+})->name('comp');

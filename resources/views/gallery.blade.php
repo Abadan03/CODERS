@@ -6,18 +6,19 @@
       <h1 class="text-center fw-semibold" style="font-size: 40px; color: #101F4C;">
         Galery <br> Event Document
       </h1>
-
+      {{-- Image logo & kegiatan --}}
       <div class="container-md d-flex flex-column gap-5">
-        <img class="img-fluid align-items-start" src="{{ url('assets/img/logo-playbox-4.png') }}" width="20%" alt="">
-        <img class="img-fluid align-items-center " src="{{ url('assets/img/kegiatan-dojo.png') }}" width="100%" alt="">
+        <img class="img-fluid align-items-start" src="{{ url('assets/img/logo-playbox-4.png') }}" width="20%" alt="Logo playbox season 4">
+        <img class="img-fluid align-items-center " src="{{ url('assets/img/kegiatan-dojo.png') }}" width="100%" alt="Foto kegiatan CODER">
 
-        <img class="img-fluid align-items-start" src="{{ url('assets/img/logo-waow-1.png') }}" width="20%" alt="">
-        <img class="img-fluid align-items-center " src="{{ url('assets/img/kegiatan-dojo.png') }}" width="100%" alt="">
+        <img class="img-fluid align-items-start" src="{{ url('assets/img/logo-waow-1.png') }}" width="20%" alt="Logo WAOW">
+        <img class="img-fluid align-items-center " src="{{ url('assets/img/kegiatan-dojo.png') }}" width="100%" alt="Foto kegiatan CODER">
 
-        <img class="img-fluid align-items-start" src="{{ url('assets/img/logo-dojo.png') }}" width="20%" alt="">
-        <img class="img-fluid align-items-center " src="{{ url('assets/img/kegiatan-dojo.png') }}" width="100%" alt="">
+        <img class="img-fluid align-items-start" src="{{ url('assets/img/logo-dojo.png') }}" width="20%" alt="Logo DOJO">
+        <img class="img-fluid align-items-center " src="{{ url('assets/img/kegiatan-dojo.png') }}" width="100%" alt="Foto kegiatan CODER">
       </div>
 
+      {{-- Section About us --}}
       <div class="container-md d-flex flex-column gap-2 mb-5">
         <p class="fw-bold" style="font-size: 50px">About Us</p>
 
